@@ -1,0 +1,382 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  /* padding-bottom: 20px; */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0px auto;
+  justify-content: space-between;
+}
+
+.nav-desktop {
+  display: flex;
+  gap: 10px;
+}
+
+/* .logo p {
+  font-weight: bolder;
+  font-size: 50px;
+} */
+
+.nav-desktop li {
+  list-style: none;
+}
+
+.nav-desktop a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.75);
+  /* transition: 0.7s ease; */
+}
+
+.nav-desktop li a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.hambuger-menu {
+  display: none;
+}
+
+.navmenu-mobile {
+  display: none;
+}
+
+main {
+  background-color: #121212;
+  padding: 70px 0px;
+}
+
+.about-me {
+  text-align: center;
+  padding: 200px 0px;
+}
+
+.about-me h1 {
+  color: #ffffff;
+}
+
+.about-me1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.easybank1 h1 {
+  color: #ffffff;
+}
+/* .what-i-do h3 {
+  text-align: center;
+}
+
+.what-i-do h2 {
+  text-align: center;
+} */
+
+.what-i-do {
+  margin: 150px 0px;
+}
+
+.projects {
+  margin: 50px 0px;
+}
+
+.insure1 {
+  color: #ffffff;
+  padding: 15px 10px;
+}
+
+.easybank1 {
+  padding: 15px 10px;
+}
+
+.note h1 {
+  color: #ffffff;
+}
+
+.skill {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: 0px auto;
+  flex-wrap: wrap;
+}
+
+.comp-maintenance {
+  background-color: #292c36;
+  border-radius: 5px;
+  padding: 30px;
+  height: 200px;
+  width: 250px;
+}
+
+.frontend {
+  background-color: #292c36;
+  border-radius: 5px;
+  padding: 30px;
+  height: 200px;
+  width: 250px;
+}
+
+.maintenance {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.front {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.front p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.maintenance p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* .front img {
+  margin-right: 15px;
+} */
+
+.maintenance img {
+  height: 42px;
+  width: 42px;
+  margin-right: 15px;
+}
+
+.front img {
+  height: 42px;
+  width: 42px;
+  margin-right: 15px;
+}
+
+.web-dev {
+  padding: 5px 5px;
+  background-color: #38405a;
+  border-radius: 5px;
+}
+
+.comp {
+  padding: 5px 5px;
+  background-color: #38405a;
+  border-radius: 5px;
+}
+
+.insure {
+  background-color: #292c36;
+  border-radius: 5px;
+}
+
+.easybank {
+  background-color: #292c36;
+  border-radius: 5px;
+}
+
+.insure1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.easybank a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* .projects h3 {
+  text-align: center;
+}
+
+.projects h2 {
+  text-align: center;
+} */
+
+.project-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projects img {
+  height: 300px;
+  width: 350px;
+  border-radius: 5px 5px 0px 0px;
+  /* border-radius: 5px; */
+}
+
+.contact-me {
+  text-align: center;
+  background-color: #292c36;
+  width: 60%;
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #292c36;
+  color: #ffffff;
+  padding: 5px 0px;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+.footer h3 {
+  color: #ffffff;
+}
+
+.contact-me h3 {
+  color: #ffffff;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  background-color: #558fff;
+  border-color: hsla(0, 0%, 100%, 0.75);
+  color: white;
+  padding: 5px 7px;
+}
+
+h3 {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.what-i-do h2 {
+  color: #4c70ef;
+  text-align: center;
+}
+
+.projects h2 {
+  color: #4c70ef;
+  text-align: center;
+}
+
+.projects h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.what-i-do h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 525px) {
+  .hambuger-menu {
+    display: block;
+    z-index: 5;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .navmenu-desktop {
+    display: none;
+  }
+
+  .navmenu-mobile {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.7s ease;
+    /* text-align: center; */
+  }
+
+  .navmenu-mobile.open {
+    display: block;
+  }
+
+  .nav-mobile {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    padding: 0;
+    margin: 0;
+  }
+
+  /* .nav-mobile a {
+  } */
+
+  .navmenu-mobile ul li {
+    list-style: none;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .navmenu-mobile ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .note h1 {
+    text-align: center;
+  }
+
+  .note {
+    width: 90%;
+  }
+  /* margin: 0px auto; */
+}
+
+/* @media screen and (max-width: 630px) {
+  .insure {
+    margin-bottom: 15px;
+  }
+} */
+
+@media screen and (max-width: 735px) {
+  .insure {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .frontend {
+    margin-bottom: 50px;
+  }
+}
